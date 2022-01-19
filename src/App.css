@@ -1,10 +1,11 @@
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-image: linear-gradient(#b6baba, #50c7c7);
+  height: 100vmin;
+  border: 1px black solid;
+  font-family: 'Raleway', sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +36,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.intro {
+  border: 1px black solid;
+  width: 40%;
+  margin: 50px auto;
+  background-color: #bccccc;
+  padding: 20px;
+
+}
+button {
+  margin: 20px;
+  padding: 20px;
+  background-color: #063333;
+  color: white;
+}
+.suggestion{
+  border: 1px solid black;
+  width: 25%;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #e1ebeb;
+  font-family: 'Neonderthaw', cursive;
 }
