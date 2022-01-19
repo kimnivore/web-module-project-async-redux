@@ -28,7 +28,7 @@ const Activity = ({ activity, isFetching, error, dispatch }) => {
                 <p>Type: {activity.type}</p>
                 <p>Participants: {activity.participants}</p>
                 <p>Price: ${activity.price}</p>
-                <p>{activity.link}</p>
+                <a href={activity.link}>{activity.link}</a>
             </div>
             <button onClick={handleClick}>Click for a new activity</button>
             <button onClick={() => {dispatch(fetchActivityFail('Error Triggered'));}}>Trigger an error</button>

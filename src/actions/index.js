@@ -4,7 +4,6 @@ export const getActivity = () => (dispatch) => {
     dispatch(fetchActivityStart());
     axios.get('https://www.boredapi.com/api/activity')
         .then(resp => {
-            console.log(resp);
             dispatch(fetchActivitySuccess(resp.data));
         })
         .catch(err => {

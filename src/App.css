@@ -54,9 +54,17 @@ button {
 }
 .suggestion{
   border: 1px solid black;
-  width: 25%;
+  width: 40%;
   margin: 20px auto;
   padding: 30px;
   background-color: #e1ebeb;
   font-family: 'Neonderthaw', cursive;
+}
+
+.suggestion h3 {
+  text-decoration: underline
+}
+
+h2 {
+  color: red;
 }
